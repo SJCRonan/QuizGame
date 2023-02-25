@@ -1,0 +1,37 @@
+#textbox{
+    background-color: white;
+    width: 100px;
+}
+
+#timerbox{
+    display: flex;
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    border: black;
+    border-radius: 10px;
+    animation-name: countdown;
+    animation-duration: 20s;
+}
+
+#countertext{
+    color: green;
+}
+
+#quiz{
+    font-size: 30px;
+    margin-right: 1000px;
+    color: white;
+    background-color: black;
+    border: 10px;
+    border-style: groove;
+    border-color: gold;
+    border-radius: 10px;
+}
+
+@keyframes countdown
+{   
+    from {width: 500px;}
+    to   {width: 5px;}
+
+}
